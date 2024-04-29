@@ -1,6 +1,6 @@
 import { thisLineNumber } from "../common/line-nr.js";
 
-/*type TMarlinWorkflowStateMachineState = object;*/ const TMarlinWorkflowStateMachineState = {}
+/*type TMarlinWorkflowStateMachineState = object;*/
 /*enum EMarlinJobState {
   TEST
 }*/ const EMarlinJobState = { TEST: 1 };

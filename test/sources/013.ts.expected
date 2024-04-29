@@ -3,7 +3,7 @@ import { thisLineNumber } from "../common/line-nr.js";
 /*interface IMyInterface {
   getName(): string;
   getAge(): number;
-}*/ const IMyInterface = {};
+}*/;
 
 class MyClass /*implements IMyInterface*/ {
   /*private*/ name/*: string*/;

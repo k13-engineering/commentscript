@@ -7,7 +7,7 @@ import assert from "node:assert/strict";
 const testFilesDir = resolve({ importMeta: import.meta, filepath: "./sources" });
 const testFileBasenames = await fs.promises.readdir(testFilesDir);
 // const testFileBasenames = [
-//   "010.ts"
+//   "003.ts"
 // ];
 
 const testFiles = testFileBasenames.filter((basename) => {

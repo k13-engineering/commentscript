@@ -1,16 +1,16 @@
 import { thisLineNumber } from "../common/line-nr.js";
 
-/*interface IMyType {}*/ const IMyType = {};
+/*interface IMyType {}*/;
 
-export /*type*/ {
+/*export type {
   IMyType
-};
+};*/
 
-export /*interface IMyType2 {}*/ const IMyType2 = {};
+/*export interface IMyType2 {}*/;
 
 /*type MyType = {
   [key: string]: string;
-}*/ const MyType = {}
+}*/
 
 const test = async () => {
   const lineNr = await thisLineNumber();

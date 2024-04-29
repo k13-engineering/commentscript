@@ -1,11 +1,11 @@
 import { thisLineNumber } from "../common/line-nr.js";
 
 /*interface PublicInterface {
-}*/ const PublicInterface = {};
+}*/;
 
 const abc = () => {
   /*interface IScopedInterface {
-  }*/ const IScopedInterface = {};
+  }*/;
 };
 
 const test = async () => {
@@ -22,8 +22,8 @@ const IScopedInterface = () => {
 };
 
 export {
-  PublicInterface,
-  abc,
+  /*PublicInterface,
+  */abc,
   test,
   IScopedInterface
 };

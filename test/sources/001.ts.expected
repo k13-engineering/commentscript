@@ -3,7 +3,7 @@ import { thisLineNumber } from "../common/line-nr.js";
 
 /*interface MyInterface {
     myProperty: string;
-}*/ const MyInterface = {};
+}*/;
 
 const myFunc = (myParam/*: { a: number, b?: string }*/)/*: MyInterface*/ => {
   return {
