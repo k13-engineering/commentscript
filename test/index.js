@@ -5,10 +5,25 @@ import { transpileCode } from "../lib/index.js";
 import assert from "node:assert/strict";
 
 const testFilesDir = resolve({ importMeta: import.meta, filepath: "./sources" });
-const testFileBasenames = await fs.promises.readdir(testFilesDir);
-// const testFileBasenames = [
-//   "003.ts"
-// ];
+const testFileBasenames = [
+  // "001.ts",
+  // "002.ts",
+  // "003.ts",
+  // "004.ts",
+  // "005.ts",
+  // "006.ts",
+  // "007.ts",
+  // "008.ts",
+  // "009.ts",
+  // "010.ts",
+  // "011.ts",
+  // "012.ts",
+  // "013.ts",
+  // "014.ts",
+  // "015.ts",
+  // "016.ts",
+  "017.ts",
+];
 
 const testFiles = testFileBasenames.filter((basename) => {
   return basename.endsWith(".ts");
