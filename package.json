@@ -3,6 +3,9 @@
   "name": "commentscript",
   "version": "0.0.7",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "node test/index.js"
   },
