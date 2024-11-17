@@ -17,5 +17,15 @@
   "devDependencies": {
     "esm-resource": "^0.0.1",
     "stacktrace-js": "^2.0.2"
-  }
+  },
+  "author": "Simon Kadisch",
+  "license": "LGPL-2.1",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/k13-engineering/commentscript.git"
+  },
+  "bugs": {
+      "url": "https://github.com/k13-engineering/commentscript/issues"
+  },
+  "homepage": "https://github.com/k13-engineering/commentscript#readme"
 }
