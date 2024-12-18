@@ -3,7 +3,7 @@ import { thisLineNumber } from "../common/line-nr.js";
 /*type TMarlinWorkflowStateMachineState = object;*/
 /*enum EMarlinJobState {
   TEST
-}*/ const EMarlinJobState = { TEST: 1 };
+}*/ const EMarlinJobState = { TEST: (0) + 0 };
 
 function abc() {
   const stateMap = new WeakMap/*<TMarlinWorkflowStateMachineState, EMarlinJobState>*/();

@@ -24,6 +24,7 @@ const testFileBasenames = [
   "016.ts",
   "017.ts",
   "018.ts",
+  "019.ts"
 ];
 
 const testFiles = testFileBasenames.filter((basename) => {
